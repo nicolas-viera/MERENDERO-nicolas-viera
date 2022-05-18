@@ -1,0 +1,170 @@
+@media screen and (max-width: 599px) {
+    .header {
+        display: none;
+        &__tablet {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        &__logotipo {
+            width: 80px;
+            height: 40px;
+            margin: 5px;
+        }
+        &__merendero {
+            font-family: sensei;
+            font-size: 15px;
+            text-align: center;
+            margin:5px
+        }
+        &__infancias {
+            font-size: 13px;
+            text-align: center;
+            margin-bottom: 0px;
+        }
+    }
+    .background__index__footer {
+        background-image: url(../imagenes/chicosmobile.jpg);
+        background-repeat:round;
+        background-size: contain;
+        }
+
+    .section__tablet {
+        display: contents;
+    }
+
+    .nav__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: center ;
+        margin: 0px;
+        gap: 8px;
+        padding-bottom: 7px;
+    }
+    
+    .nav__link {
+        color: black;
+        text-decoration: none;
+        font-size: 10px;
+        font-family: indie;
+        padding: 7px;
+    }
+        
+    .nav__link:hover {
+        border-radius: 7px;
+    }
+
+    .eslogan__titulo {
+        font-family: dancing;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        padding: 2%;
+    }
+        
+    .eslogan__subtitulo {
+        font-family: dancing;
+        color: black;
+        font-size: 15px;
+        text-align: right;
+        padding-right: 2%;
+    }
+
+    .chicos__carrusel {
+        width: 60%;
+        height: 250px;
+        left: 20%;
+    }
+
+    .chicos__fondos {
+        height: 300px;
+    }
+
+    .footer__perdido {
+        font-size: 13px;
+        margin-bottom: 5px;            
+    }
+
+    .footer__nav__lista {
+        display: flex;
+        flex-direction: column;
+        list-style: none; 
+        gap: 0.5rem;
+        align-items: start;
+        margin-left: 10px;
+    }
+        
+    .footer__nav__link {
+        color: black;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: indie;    
+        padding: 2px ; 
+    }
+
+    .seguinos__logo__ig {
+        font-family: sensei;
+        text-align: end;
+        font-size: 12px;
+        margin-right: 5px;
+    }
+
+    .botonig {
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .whatsapp {
+        margin-right: 1rem;
+    }
+
+/* Nosotros mobile */
+
+.nosotros {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+        &__titulo {
+            font-size: 20px;
+        }
+        &__subtitulo {
+            font-size: 12px;
+        }
+        &__parrafo{
+            font-size: 10px;
+        }
+    }
+    
+/* Que hacemos mobile */
+
+.grid__iframeig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 15px;
+    row-gap: 30px;
+    }
+
+.parrafo__talleres {
+    font-size: 15px;
+    margin-bottom: 30px;
+    }
+
+    /* contacto */
+
+    .section__contacto__desktop {
+        display: none;
+    }
+
+    .section__contacto__mobile {
+        display: contents;
+    }
+
+
+}
+

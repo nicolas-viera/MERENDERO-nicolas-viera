@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+    /* contacto */
+
+    .link {
+        color: black;
+    }
+
+    .section__contacto__mobile {
+        display: none;
+    }
+
+
+    @import "parciales/_header.scss";
+    @import "parciales/_main-index.scss";
+    @import "parciales/_footer.scss";
+    @import "parciales/_nosotros.scss";
+    @import "parciales/_grid-que-hacemos.scss";
+    @import "parciales/_media-tablet.scss";
+    @import "parciales/_media-mobile.scss";
+
+
+

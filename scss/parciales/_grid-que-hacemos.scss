@@ -1,0 +1,78 @@
+.grid__iframeig {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 750px 750px 750px 750px 750px 750px;
+    grid-template-areas:
+        "ele1 ele2 ele3"
+        "ele4 ele6 ele7"
+        "ele10 ele8 ele9"
+        "ele5 ele11 ele13"
+        "ele12 ele14 ele15"
+        ". ele16 .";
+    justify-content: space-evenly;
+    column-gap: 15px;
+    row-gap: 100px;
+
+        &__hijo {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__1 {
+                grid-area: ele1;
+                }
+            &__2 {
+                grid-area: ele2;
+                }
+            &__3 {
+                grid-area: ele3;
+                }
+            &__4 {
+                grid-area: ele4;
+                }
+            &__5 {
+                grid-area: ele5;
+                }
+            &__6 {
+                grid-area: ele6;
+                }
+            &__7 {
+                grid-area: ele7;
+                }
+            &__8 {
+                grid-area: ele8;
+                }
+            &__9 {
+                grid-area: ele9;
+                }
+            &__10 {
+                grid-area: ele10;
+                }
+            &__11 {
+                grid-area: ele11;
+                }
+            &__12 {
+                grid-area: ele12;
+                }
+            &__13 {
+                grid-area: ele13;
+                }
+            &__14 {
+                grid-area: ele14;
+                }
+            &__15 {
+                grid-area: ele15;
+                }
+            &__16 {
+                grid-area: ele16;
+                }
+            }
+            
+    }
+
+.parrafo__talleres {
+    font-family: sensei;
+    font-size: 28px;
+    margin-bottom: 20px;
+    }

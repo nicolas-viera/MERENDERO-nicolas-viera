@@ -1,0 +1,58 @@
+.footer__principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+
+.footer__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        &__lista {
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            list-style: none; 
+            gap: 5px;
+            }
+        &__link {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: indie;
+            font-weight: bold;
+            }
+    }
+
+.footer__perdido {
+    font-size: 28px;
+    font-family: sensei;
+    text-align: center;
+    }
+
+.seguinos {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-right: 2%;
+        &__logo__ig {
+        display: block;
+        font-family: sensei;
+        font-size: 20px;
+        }
+    }
+
+.botonig {
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    }
+
+.whatsapp {
+    display: inline block;
+    position: fixed;  
+    bottom: 0%;
+    right: 0%;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+        }

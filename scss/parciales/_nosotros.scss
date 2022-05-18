@@ -1,0 +1,41 @@
+@font-face {
+    font-family: dancing;
+    src: url(../fuentes/DancingScript-VariableFont_wght.ttf);
+        }
+
+@font-face {
+    font-family: indie;
+    src: url(../fuentes/IndieFlower-Regular.ttf);
+            }
+
+.nosotros {
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+        &__titulo {
+            list-style: none;   
+            font-family: indie;
+            font-size: 44px;
+            text-align: center;
+            font-weight: bold;
+        }
+        &__parrafo {
+            list-style: none;   
+            font-family: indie;
+            font-size: 18px;
+            padding-left: 1rem;
+            margin: 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        &__subtitulo {
+        list-style: none;
+        font-family: indie;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        }
+    }
+
+
