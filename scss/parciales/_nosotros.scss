@@ -15,7 +15,7 @@
     padding: 10px;
         &__titulo {
             list-style: none;   
-            font-family: map-get($estilo, f-indie);
+            font-family: indie;
             font-size: 44px;
             text-align: map-get($estilo, centro);
             font-weight: map-get($estilo, negrita);
