@@ -4,37 +4,34 @@
         }
 
 @font-face {
-    font-family: indie;
+    font-family: map-get($estilo, f-indie);
     src: url(../fuentes/IndieFlower-Regular.ttf);
             }
 
 .nosotros {
-    color: black;
+    color: map-get($estilo,colornegro) ;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
         &__titulo {
             list-style: none;   
-            font-family: indie;
+            font-family: map-get($estilo, f-indie);
             font-size: 44px;
             text-align: center;
-            font-weight: bold;
+            font-weight: map-get($estilo, negrita);
         }
         &__parrafo {
-            list-style: none;   
-            font-family: indie;
+            @extend &__titulo;
             font-size: 18px;
             padding-left: 1rem;
             margin: 1rem;
-            text-decoration: none;
-            font-weight: bold;
+            text-decoration: map-get($estilo, decoracion);
         }
         &__subtitulo {
-        list-style: none;
-        font-family: indie;
-        font-size: 20px;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
+            @extend &__parrafo;
+            font-size: + 2px;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
         }
     }
 
