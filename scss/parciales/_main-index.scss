@@ -1,6 +1,7 @@
 .chicos__carrusel {
-    @include sizes(600px, 50%);
     left: 25%;
+    height: 600px;
+    width: 50%;
 }
 
 .chicos__fondos {

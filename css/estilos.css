@@ -76,9 +76,9 @@
 }
 
 .chicos__carrusel {
-  height: 50%;
-  width: 600px;
   left: 25%;
+  height: 600px;
+  width: 50%;
 }
 
 .chicos__fondos {
@@ -192,7 +192,6 @@ a:link {
 }
 
 @font-face {
-  font-family: indie;
   src: url(../fuentes/IndieFlower-Regular.ttf);
 }
 
@@ -215,11 +214,12 @@ a:link {
   font-size: 18px;
   padding-left: 1rem;
   margin: 1rem;
+  text-align: start;
   text-decoration: none;
 }
 
 .nosotros__subtitulo {
-  font-size: 2px;
+  font-size: 20px;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
