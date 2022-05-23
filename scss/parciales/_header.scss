@@ -1,8 +1,5 @@
 .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @include generarflex(row, space-between, center);
     padding-top: 10px;
         &__logotipo {
             width: 160px;
@@ -19,7 +16,7 @@
         &__infancias {
             font-family: dreaming;
             font-size: 20px;
-            text-align: map-get($estilo, centro);
+            text-align:map-get($estilo, negrita);
             margin:0%
             }        
     }

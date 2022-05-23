@@ -14,7 +14,8 @@
         display: none;
     }
 
-
+    
+    @import "parciales/_variables-maps-mixins.scss"; 
     @import "parciales/_header.scss";
     @import "parciales/_main-index.scss";
     @import "parciales/_footer.scss";
@@ -22,7 +23,6 @@
     @import "parciales/_grid-que-hacemos.scss";
     @import "parciales/_media-tablet.scss";
     @import "parciales/_media-mobile.scss";
-    @import "parciales/_variables-maps-mixins.scss";
 
 
 

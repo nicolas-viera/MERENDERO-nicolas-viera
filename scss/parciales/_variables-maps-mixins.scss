@@ -1,9 +1,20 @@
 $violeta: #9da0ff;
 
-$nosotros: (
+$estilo: (
     colornegro: black,
     negrita: bold,
     centro: center,
-    decoracion: none
-    f-indie: indie,
-    )
+    decoracion: none 
+    );
+
+    @mixin sizes($width, $height) {
+        height: $height;
+        width: $width;
+    }
+
+    @mixin generarflex($direccion, $eje-principal, $eje-secundario) {
+        display:flex;
+        flex-direction: $direccion;
+        justify-content: $eje-principal;
+        align-items: $eje-secundario;
+    }

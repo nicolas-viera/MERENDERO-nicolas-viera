@@ -43,8 +43,7 @@
     }
 
 .botonig {
-    height: 40px;
-    width: 40px;
+    @include sizes(40px, 40px);
     margin-left: 5px;
     }
 

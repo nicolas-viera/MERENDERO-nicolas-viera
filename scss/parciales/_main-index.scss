@@ -1,6 +1,5 @@
 .chicos__carrusel {
-    width: 50%;
-    height: 600px;
+    @include sizes(600px, 50%);
     left: 25%;
 }
 

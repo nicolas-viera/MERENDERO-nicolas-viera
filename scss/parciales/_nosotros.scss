@@ -17,18 +17,18 @@
             list-style: none;   
             font-family: map-get($estilo, f-indie);
             font-size: 44px;
-            text-align: center;
+            text-align: map-get($estilo, centro);
             font-weight: map-get($estilo, negrita);
         }
         &__parrafo {
-            @extend &__titulo;
+            @extend .nosotros__titulo;
             font-size: 18px;
             padding-left: 1rem;
             margin: 1rem;
             text-decoration: map-get($estilo, decoracion);
         }
         &__subtitulo {
-            @extend &__parrafo;
+            @extend .nosotros__parrafo;
             font-size: + 2px;
             margin-bottom: 1rem;
             margin-top: 1rem;
