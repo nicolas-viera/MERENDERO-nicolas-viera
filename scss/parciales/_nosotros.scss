@@ -25,11 +25,12 @@
             font-size: 18px;
             padding-left: 1rem;
             margin: 1rem;
+            text-align: start;
             text-decoration: map-get($estilo, decoracion);
         }
         &__subtitulo {
             @extend .nosotros__parrafo;
-            font-size: + 2px;
+            font-size: 20px;
             margin-bottom: 1rem;
             margin-top: 1rem;
         }
