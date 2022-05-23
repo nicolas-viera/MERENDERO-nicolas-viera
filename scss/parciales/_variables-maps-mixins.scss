@@ -4,7 +4,8 @@ $estilo: (
     colornegro: black,
     negrita: bold,
     centro: center,
-    decoracion: none 
+    decoracion: none,
+    f-indie: indie
     );
 
     @mixin sizes($width, $height) {
